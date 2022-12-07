@@ -14,34 +14,34 @@ export const Skills = () => {
   //https://api.appdul.com/api/skills?populate=thumnail_images
   const [Skill, setSkill] = useState([])
 
-    const fetchData = ()=>{
+  const fetchData = ()=>{
      
-      let BASE_URL = 'https://api.appdul.com'
-      let MODUL = '/api/skills'
-      let ENDPOINT = BASE_URL+MODUL+`?populate=thumnail_images`
+    let BASE_URL = 'https://api.appdul.com'
+    let MODUL = '/api/skills'
+    let ENDPOINT = BASE_URL+MODUL+`?populate=thumnail_images`
 
-      fetch(ENDPOINT)
-      .then(async (response) => {
-          const result = await response.json()
-          return [response.status, result]
-      })
-      .then(([statusCode, result])=>{
-          // const {rates} = result
-          const temp = result.data.map((item) => {
-              const title = item.attributes.skill_name
-              const img = BASE_URL+item.attributes.thumnail_images.data.attributes.url
+    fetch(ENDPOINT)
+    .then(async (response) => {
+        const result = await response.json()
+        return [response.status, result]
+    })
+    .then(([statusCode, result])=>{
+        // const {rates} = result
+        const temp = result.data.map((item) => {
+            const title = item.attributes.skill_name
+            const img = BASE_URL+item.attributes.thumnail_images.data.attributes.url
 
-              return {
-                  title,
-                  img,
-              }
-          })
+            return {
+                title,
+                img,
+            }
+        })
 
-          setSkill(temp)
-      })
-      .catch(err=>{
-          console.log(err)
-      })
+        setSkill(temp)
+    })
+    .catch(err=>{
+        console.log(err)
+    })
   }
 
   useEffect(()=>{
@@ -82,7 +82,7 @@ export const Skills = () => {
                             {
                               Skill.map(e => {
                                 return(
-                                  <div className="item">
+                                  <div key={e.title} className="item">
                                     <img src={e.img} alt="Image" />
                                     <h5>{e.title}</h5>
                                 </div>
