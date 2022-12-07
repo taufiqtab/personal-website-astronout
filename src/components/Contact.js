@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact-bg.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -26,17 +26,17 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://api.appdul.com/api/contacts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
       },
-      body: JSON.stringify(formDetails),
+      body: JSON.stringify({data:formDetails}),
     });
     setButtonText("Send");
-    let result = await response.json();
+    // let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (response.status == 200) {
       setStatus({ succes: true, message: 'Message sent successfully'});
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});

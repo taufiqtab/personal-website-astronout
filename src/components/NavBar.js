@@ -54,9 +54,9 @@ export const NavBar = () => {
                 <a href="https://facebook.com/ultratut"><img src={navIcon2} alt="" /></a>
                 <a href="https://instagram.com/taufiqtab"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>

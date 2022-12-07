@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
+import headerImg2 from "../assets/img/header-img.png";
+
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -9,10 +11,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Fullstack Developer", "Mobile Apps Developer", "Game Developer", , "Graphic Designer", "3D Animator" ];
-  const period = 2000;
+  const toRotate = [ "Web Developer", "Fullstack Developer", "Mobile Apps Developer", "Game Developer",  "Graphic Designer", "3D Animator" ];
+  const period = 100;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -36,12 +38,12 @@ export const Banner = () => {
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
       setIndex(prevIndex => prevIndex - 1);
-      setDelta(period);
+      setDelta(500);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(100);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -56,9 +58,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Assalamu'alaikum</span>
-                <h1>{`Hi! I'm Opik`} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Taufiq Abdullah`} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
                 <p>Passionate in Programming, Game Development, AR, VR , Design Graphic, Video Editing, 3D Modeling, Animation</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
@@ -66,7 +68,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg2} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
