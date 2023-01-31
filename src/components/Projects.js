@@ -48,18 +48,23 @@ export const Projects = () => {
                 const img = BASE_URL+item.attributes.project_thumbnail.data.attributes.url
                 const category = item.attributes.project_category.data.attributes.category_name
                 const link = item.attributes.project_link
+                const createdAt = item.attributes.createdAt
+                
 
                 return {
                     title,
                     img,
                     category,
-                    link
+                    link,
+                    createdAt
                 }
               })
 
               const final = categories.map((fil) => {
 
-                const listProject = temp.filter(e => e.category == fil)
+                const listProject = temp.filter(e => e.category === fil)
+                listProject.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
                 
                 return {
                   category : fil,
