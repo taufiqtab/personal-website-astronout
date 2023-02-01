@@ -77,7 +77,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Knowledge</h2>
                         <p>I have learned different programming languages & frameworks ​​so far and as far as my skills are concerned<br></br></p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={400} focusOnSelect={true} className="owl-carousel owl-theme skill-slider">
                             
                             {
                               Skill.map(e => {
