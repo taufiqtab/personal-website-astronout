@@ -16,6 +16,7 @@ export const ProjectCard = ({ title, category, img, link }) => {
           <span>{category}</span>
         </div>
       </div>
+      <h2>{title}</h2>
     </Col>
   )
 }
