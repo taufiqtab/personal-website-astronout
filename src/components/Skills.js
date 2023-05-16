@@ -44,8 +44,54 @@ export const Skills = () => {
     })
   }
 
+  const fetchOfflineData = () => {
+    const temp = [
+      {
+        "title" : "Laravel",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png"
+      },
+      {
+        "title" : "Flutter",
+        "img" : "https://miro.medium.com/max/320/0*ObJbOfJnx4QIPUq9.png"
+      },
+
+      {
+        "title" : "Unity",
+        "img" : "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png"
+      },
+      {
+        "title" : "React",
+        "img" : "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+      },
+      {
+        "title" : "Vue",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png"
+      },
+      {
+        "title" : "Blender 3D",
+        "img" : "https://download.blender.org/branding/community/blender_community_badge_orange.png"
+      },
+      {
+        "title" : "Davinci Resolve",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png"
+      },
+      {
+        "title" : "GIMP",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/1024px-The_GIMP_icon_-_gnome.svg.png"
+      },
+      {
+        "title" : "InkScape",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/2048px-Inkscape_Logo.svg.png"
+      },
+      
+    ]
+
+    setSkill(temp)
+  }
+
   useEffect(()=>{
       //fetchData()
+      fetchOfflineData();
   }, [])
 
 
@@ -78,8 +124,7 @@ export const Skills = () => {
                         <h2>Knowledge</h2>
                         <p>I have learned different programming languages & frameworks ​​so far and as far as my skills are concerned<br></br></p>
                         <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={400} focusOnSelect={true} className="owl-carousel owl-theme skill-slider">
-                            
-                            {/* {
+                            {
                               Skill.map(e => {
                                 return(
                                   <div key={e.title} className="item">
@@ -88,49 +133,7 @@ export const Skills = () => {
                                 </div>
                                 )
                               })
-                            } */}
-                            <div className="item">
-                                <img src="https://assets.stickpng.com/images/58480e35cef1014c0b5e4920.png" alt="Image" />
-                                <h5>Laravel</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://miro.medium.com/max/320/0*ObJbOfJnx4QIPUq9.png" alt="Image" />
-                                <h5>Flutter</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png" alt="Image" />
-                                <h5>Unity</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png" alt="Image" />
-                                <h5>React</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" alt="Image" />
-                                <h5>Vue</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://download.blender.org/branding/community/blender_community_badge_orange.png" alt="Image" />
-                                <h5>Blender 3D</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png" alt="Image" />
-                                <h5>Davinci Resolve</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/1024px-The_GIMP_icon_-_gnome.svg.png" alt="Image" />
-                                <h5>GIMP</h5>
-                            </div>
-                            <div className="item">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/2048px-Inkscape_Logo.svg.png" alt="Image" />
-                                <h5>Inkscape</h5>
-                            </div>
-
-                            
-                            
-
-                            
-                            
+                            }
                         </Carousel>
                     </div>
                 </div>
