@@ -45,7 +45,7 @@ export const Skills = () => {
   }
 
   useEffect(()=>{
-      fetchData()
+      //fetchData()
   }, [])
 
 
@@ -79,7 +79,7 @@ export const Skills = () => {
                         <p>I have learned different programming languages & frameworks ​​so far and as far as my skills are concerned<br></br></p>
                         <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={400} focusOnSelect={true} className="owl-carousel owl-theme skill-slider">
                             
-                            {
+                            {/* {
                               Skill.map(e => {
                                 return(
                                   <div key={e.title} className="item">
@@ -88,8 +88,8 @@ export const Skills = () => {
                                 </div>
                                 )
                               })
-                            }
-                            {/* <div className="item">
+                            } */}
+                            <div className="item">
                                 <img src="https://assets.stickpng.com/images/58480e35cef1014c0b5e4920.png" alt="Image" />
                                 <h5>Laravel</h5>
                             </div>
@@ -124,7 +124,7 @@ export const Skills = () => {
                             <div className="item">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/2048px-Inkscape_Logo.svg.png" alt="Image" />
                                 <h5>Inkscape</h5>
-                            </div> */}
+                            </div>
 
                             
                             

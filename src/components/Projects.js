@@ -88,7 +88,7 @@ export const Projects = () => {
   }
 
   useEffect(()=>{
-    fetchData()
+    //fetchData()
   }, [])
 
   const projects = [
@@ -131,7 +131,7 @@ export const Projects = () => {
                 <p>I show you to all the big and small Projects I have done so far</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="Games">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    {
+                    {/* {
                       Project.map(pro => {
                         return(
                           <Nav.Item key={pro.category}>
@@ -139,8 +139,8 @@ export const Projects = () => {
                           </Nav.Item>
                         )
                       })
-                    }
-                    {/* <Nav.Item>
+                    } */}
+                    <Nav.Item>
                       <Nav.Link eventKey="first">Web</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
@@ -148,7 +148,7 @@ export const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Games</Nav.Link>
-                    </Nav.Item> */}
+                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     {
