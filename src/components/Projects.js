@@ -126,7 +126,7 @@ export const Projects = () => {
         "createdAt" : ""
       },
       {
-        "title" : "DEP",
+        "title" : "Device Enrollment Program",
         "img" : "https://1.bp.blogspot.com/-2KZFH08aYPY/Wt0-c0R9Y0I/AAAAAAAARG8/_LSNETwy9zUmH9OQDIEcjDzKXzBlKRvfwCPcBGAYYCw/s320/blogger-image--1378281783.jpg",
         "category" : "Web",
         "link" : "",
@@ -140,8 +140,15 @@ export const Projects = () => {
         "createdAt" : ""
       },
       {
-        "title" : "EMA",
-        "img" : "https://cdn1.iconfinder.com/data/icons/web-app-developer/48/web__app_developer_-_code_modul-512.png",
+        "title" : "Faktur Broadcast",
+        "img" : "https://cdn.icon-icons.com/icons2/2601/PNG/512/invoice_icon_155913.png",
+        "category" : "Web",
+        "link" : "",
+        "createdAt" : ""
+      },
+      {
+        "title" : "IMEI Advance",
+        "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5CXKY_Wzn2sBfTpvrCkACQsAbCbRnTDucA&usqp=CAU",
         "category" : "Web",
         "link" : "",
         "createdAt" : ""
@@ -182,7 +189,7 @@ export const Projects = () => {
         "createdAt" : ""
       },
       {
-        "title" : "ERCAS",
+        "title" : "Risk Control Analysis System",
         "img" : "https://static.vecteezy.com/system/resources/previews/005/187/412/original/risk-analysis-flat-outline-concept-icon-showing-risk-evaluation-vector.jpg",
         "category" : "Web",
         "link" : "",
@@ -229,14 +236,14 @@ export const Projects = () => {
       },
       {
         "title" : "eHRM PUPR",
-        "img" : "https://drive.google.com/file/d/1FIuXne_gBZlIzh7GvZvfzCUQLHGuQgou/preview",
+        "img" : "https://pbs.twimg.com/media/EYXyCCNUcAEa0BU.jpg",
         "category" : "Mobile",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "APASI - DJP Batam",
-        "img" : "https://cdn-icons-png.flaticon.com/512/4477/4477610.png",
+        "img" : "https://d1fdloi71mui9q.cloudfront.net/3sQGzu5MTr2Ytg7Eprdw_Logo%20DJP%20-04%20-%20Copy.png",
         "category" : "Mobile",
         "link" : "",
         "createdAt" : ""
@@ -361,28 +368,28 @@ export const Projects = () => {
     const dataEdu = [
       {
         "title" : "FlonAR - Augmented Reality Flora Fauna",
-        "img" : "https://cdn-icons-png.flaticon.com/512/2038/2038157.png",
+        "img" : "https://i.imgur.com/gcaQZKv.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "BIDO Educational Series",
-        "img" : "https://cdn-icons-png.flaticon.com/512/2038/2038157.png",
+        "img" : "https://lh3.googleusercontent.com/hgRamZRBsGG2KkTyTHSoVBUCwpJge9wHU52YOzTSq9fV4IruLmaG0CfQvcTUxPkcFRg",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "KuRU - Ular Tangga Pintar",
-        "img" : "https://cdn-icons-png.flaticon.com/512/2038/2038157.png",
+        "img" : "https://i.imgur.com/81ClvqH.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Trashformers - Gemastik 8 Finalist",
-        "img" : "https://cdn-icons-png.flaticon.com/512/2038/2038157.png",
+        "img" : "https://i.imgur.com/I7eawJS.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
@@ -392,7 +399,7 @@ export const Projects = () => {
     const dataMultimedia = [
       {
         "title" : "Youtube Tutorial Series",
-        "img" : "https://i.ytimg.com/vi/tEFkS_Ksdto/maxresdefault.jpg",
+        "img" : "https://i.imgur.com/W5UhLKV.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
@@ -403,7 +410,7 @@ export const Projects = () => {
     const dataOther = [
       {
         "title" : "FITKOM Instagram Filter",
-        "img" : "https://images.squarespace-cdn.com/content/v1/5df28c9371b0a51d1faed62b/1581028465726-7EU1CYU2N2H6DU89TQOJ/NSN-021020-how-to-use-instagram-filters-01.png?format=2500w",
+        "img" : "https://i.imgur.com/5GK9g9R.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
