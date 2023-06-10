@@ -253,116 +253,116 @@ export const Projects = () => {
     const dataGames = [
       {
         "title" : "SWAF - Second World Adventure Freeroam",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://media.licdn.com/dms/image/C4D2DAQFfqWVm3aVaKg/profile-treasury-image-shrink_1920_1920/0/1596579725505?e=1686992400&v=beta&t=PMXUUNOMPNZzzw8kcxAkUccmhSriTVQev2f9kHOBcM4",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Balloon Bender",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/sa2dGbiOxcvcA61J_b4DzMEkYXxRGlAjIoAkQxuHgIxeMebAj1wOE4bZAA6RS3Poig",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "ReaLato - Lato Lato Simulator",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/7DnYsaU8sxLoSoG9j335OC6TIiFbCM_CyR4yG0vTiP1gr9TrHhOdU49JRDGDbwo6XA",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Bedug 3D Lebaran",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/lN5Mbz9yVb37jd7gCfPJjSyQeEaF3urbS_nab7sFvJ-ayxtT-f799qJZcz5_CkG7hoc",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Warkop TheGame",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://i.imgur.com/BsS2q7w.jpg",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Ayo Telolet",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/JjCYMIDjwZ2qdrXyzBattX0TvlzFq2ykw62t3jPxTl77IH1gNkiKlJ7OYKCK5weuVys=w240-h480-rw",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "No Ngetem !",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/iRzu6e8MN2-j7Y0YDSF26_PYcCbQ5Gf8AXNlRwCaiRcg-934BH2RXirNGPhDlIXYrw=w240-h480-rw",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Ngepet TheGame",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://play-lh.googleusercontent.com/0s_ipLo8kMJDFfNwPFDpwswEEjU1UixNfRwxpRmyp7WXQPdk44HOoH8cIbvJZdUbdB27=w240-h480-rw",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Juragan Wayang",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydbEMRJdVpVrYL6oFpVBD5bAfhn15N8kI9VU54qYHgv2zDnK0MfcFuNDLgL7gfHJYhZA&usqp=CAU",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Juragan Kota",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://image.winudf.com/v2/image/Y29tLmJpbmFyeXdvcmtzc3lzdGVtcy5qdXJhZ2Fua290YV9zY3JlZW5fM18xNTI4MzcyNDIyXzAyMg/screen-3.webp?fakeurl=1&type=.webp",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Juragan Hotel",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://holisbest.files.wordpress.com/2017/02/b3715-juragan2bhotel2bmod2bapk2bterbaru2b2017.jpg?w=316&h=320",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Legend War",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://lh3.googleusercontent.com/YAfr2T6K_5nc6UOfg74YCq_SAqnmF6N4fAi-S9lETGf4shiCSJ_a1_HLfRo61RlHSA=w300",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Tactical Robot",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://i.imgur.com/fk4wUkm.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Gunners.io",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://softstribe.com/app/uploads/new-icons/com-binaryworkssystems-gunnersio-icon.webp",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
       {
         "title" : "Robot Evolved",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+        "img" : "https://i.imgur.com/H6j45Z5.png",
         "category" : "Games",
         "link" : "",
         "createdAt" : ""
       },
-      {
-        "title" : "Hero War",
-        "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
-        "category" : "Games",
-        "link" : "",
-        "createdAt" : ""
-      },
+      // {
+      //   "title" : "Hero War",
+      //   "img" : "https://cdn-icons-png.flaticon.com/512/3408/3408506.png",
+      //   "category" : "Games",
+      //   "link" : "",
+      //   "createdAt" : ""
+      // },
     ]
 
     const dataEdu = [
@@ -398,10 +398,10 @@ export const Projects = () => {
 
     const dataMultimedia = [
       {
-        "title" : "Youtube Tutorial Series",
+        "title" : "Youtube Channel",
         "img" : "https://i.imgur.com/W5UhLKV.png",
         "category" : "Games",
-        "link" : "",
+        "link" : "https://www.youtube.com/@ultratut",
         "createdAt" : ""
       },
       
@@ -432,7 +432,7 @@ export const Projects = () => {
         "data" : dataGames
       },
       {
-        "category" : "Educational",
+        "category" : "Edu",
         "data" : dataEdu
       },
       {
